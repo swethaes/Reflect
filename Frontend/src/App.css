@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+  background-image: url('../public/videos/assets/image.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+
+
+.question-title{
+  font-family: Montserrat;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: xx-large;
+}
+
+.heading {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between the logo and the text */
+  padding-left: 10px;
+}
+
+h1 {
+  color: #484848;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer
+
+}
+
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+
+}
+
+.question-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.custom-video-player-1,
+.custom-video-player-2 {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 50px #FFB6C1;
+  margin-bottom: 20px;
+  width: 70vh; /* This might need adjustment depending on your layout */
+  height: 50vh; /* This might need adjustment depending on your layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 6000px; /* Set the width to 500 pixels */
+  height: auto;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto; /* Adjust the height automatically based on content */
+}
+
+.button-container button {
+  background-image: linear-gradient(to right, #bc24ef, #f600fa);
+  padding: 10px 20px; /* Add padding to adjust button size */
+  margin: 20px;
+  font-size: 16px; /* Adjust font size as needed */
+  border: none;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+

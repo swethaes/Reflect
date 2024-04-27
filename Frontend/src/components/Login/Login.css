@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+  }
+h2{
+  size: 30px;
+  align-items: center;
+  display: flexbox;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0; 
+    padding-top: 0; 
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+a{
+  color: #333;
+}
+a:hover{
+  color: #da5767;
+  text-decoration: none;
+}
+.card{
+  border: 3px solid #000000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+}
+.form-control{
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 25px 15px;
+  margin: 5px;
+  margin-left: 25px!important;
+  width:100vh;
+  height: 5px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+
+}
+
+.form-control:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.login-container{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto; /* Adjust the height automatically based on content */
+}
+
+.button-container button {
+  background-image: linear-gradient(to right, #bc24ef, #f600fa);
+  padding: 10px 20px; /* Add padding to adjust button size */
+  margin: 20px;
+  font-size: 16px; /* Adjust font size as needed */
+  border: none;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.login-link{
+    padding: 300px;
+    color: purple;
+}
