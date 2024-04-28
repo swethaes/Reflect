@@ -17,6 +17,10 @@ function NewUser() {
  
 
       <div className="justify-content-center">
+                    <div className="header-container">
+                <img src="videos\assets\logo_edited_edited.png" alt="Logo" className="logo" />
+                <h1>REFLECT</h1>
+            </div>
         <div>
           <div className="heading"><br></br><br></br>
             <h1 className="question-title">
